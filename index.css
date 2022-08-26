@@ -1,0 +1,276 @@
+body {
+  position:absolute;
+  left: 30px;
+  font-family: roboto;
+}
+.header {
+    height: 94px;
+    width: 1440px;
+    display: flex;
+}
+.header .logo {
+    width: 542px;
+    padding: 2px 0px;
+    padding-left: 70px;
+    
+}
+button {
+  cursor: pointer;
+  border: none;
+}
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 33px 0px;
+    font-size: 24px;
+    padding-bottom: 10px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(70, 70, 70);}
+  
+  .dropdown:hover .dropdown-content {display: block;} 
+  
+
+  .banner {
+    height: 688px;
+    width: 1440px;
+    background-image: url(./image/Trang-An-4-1605172551\ 1.png);
+  }
+  .banner-content {
+    padding-left: 95px;
+    padding-top: 265px;
+  }
+  .banner h1 {
+    color: white;
+    font-size: 64px;
+    font-weight: 900;
+    margin: 0px;
+    line-height: 75px;
+  }
+  .banner p {
+    color: white;
+    font-size: 24px;
+    height: 84px;
+    width: 544px;
+    margin: 0px
+  }
+
+  .content1 {
+    padding:80px 0px;
+    padding-left: 205px;
+    font-size: 24px;
+    width: 1235px;
+  }
+  .content1 p{
+    width: 1031px;
+  }
+  .content2 {
+    width: 1440px;
+    height: 491px;
+    background-image: url(./image/content2.png);
+    text-align: center;
+    color: white;
+    padding-top: 109px;
+  }
+  .content2 p {
+    width: 1031px;
+    margin-top: 0px;
+    margin-left: 205px;
+    margin-right: 204px;
+  }
+  .content2 button {
+    width: 257px;
+    height: 65px;
+    border-radius: 69px;
+    border: none;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .content2 button:hover {background-color:black; color: white;font-weight: 500;}
+
+  .content3 {
+    margin-left: 205px;
+  }
+  .content3 button {
+    height: 65px;
+    width: 257px;
+    color: white;
+    background-color: black;
+    border-radius: 69px;
+    border: solid black 1px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .content3 button:hover {background-color: white; color: black;font-weight: 500;}
+
+  .content3-1 {
+    margin-top: 80px;
+    display: flex;
+    height: 477px;
+  }
+  .content3-child1{
+    flex-direction: column;
+    margin-left: 76px;
+    margin-right: 204px;
+    width: 478px;
+    height: 477px;
+  }
+
+  .content3-2 {
+    margin-top: 80px;
+    display: flex; 
+    height: 477px;
+  }
+  .content3-child2{
+    width: 500px;
+    margin-right: 53px;
+  }
+
+
+  .content4 {
+    margin-top: 80px;
+    text-align: center;
+    width: 1440;
+  }
+  .content4 h1{
+    font-size: 64px;
+    width: 1031px;
+    margin-left: 205px;
+    margin: 0px 204px;
+  }
+  .content4 hr {
+    width: 380px;
+    margin: 1px 530px;
+    height: 1px;
+    border-top: 6px solid black;
+  }
+  
+  .content4-container1 {
+    margin-top: 60px;
+    display: flex;
+  }
+
+  .content4-container2 {
+    margin-top:70px;
+    display:flex;
+  }
+  .child {
+    height: 677px;
+    width: 450px;
+    overflow: hidden;
+    display: flex;
+  }
+  .child img {
+    width: 100%;
+    height: 100%;
+    transition-duration: 0.2s ;
+  }
+  .child img:hover {transform: scale(1.2) ;
+  }
+
+  .child .caption {
+    position: absolute;
+    color: white;
+    text-align: center;
+    width: 450px;
+    margin-top: 585px;
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .content5 {
+    margin-top: 80px;
+    width: 1440px;
+    height: 363px;
+    background-image: url(./image/Rectangle\ 5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 237px;
+    display: flex;
+  }
+
+  .content5-container {
+    margin-left: 243px;
+  }
+  .content5 h1 {
+    font-size: 64px;
+    margin: 0px;
+  }
+
+  .content5-container button {
+    background-color: black;
+    color: white;
+    width: 341px;
+    height: 65px;
+    border-radius: 69px;
+    margin-top: 17px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .content5 button:hover {background-color: white; color: black;font-weight: 500;}
+
+  .content6 {
+    margin-top: 80px;
+  }
+  .content6 h1 {
+    font-size: 64px;
+    width: 1031px;
+    text-align: center;
+    margin-left: 205px;
+  }
+  .footer {
+    display: flex;
+    width: 1440px;
+    margin-top: 80px;
+  }
+  .footer h3 {
+    font-size: 32px;
+  }
+  .about {
+    width: 318px;
+    margin-left: 100px;
+  }
+  .work {
+    width: 158px;
+    margin-left: 122px;
+
+  }
+  .news {
+    width: 229px;
+    margin-left: 122px;
+  }
+  .involved {
+    width: 175px;
+    margin-left: 122px;
+
+  }
+  .footer a {
+    margin: 0px;  
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
+  }
+  .footer .content {
+    margin-top: 40px;
+  }
